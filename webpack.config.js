@@ -77,6 +77,7 @@ module.exports = {
          test: /\.css$/,
          loader: 'style-loader!css-loader'
       }
+      //TODO - still used to traditional methods of writing classnames by hand
       // , {
       //   test: /\.css$/,
       //   loader: 'css-loader',
